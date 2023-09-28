@@ -5,8 +5,7 @@
   "scripts": {
     "build": "nx run-many --target=build --all",
     "lint": "nx run-many --target=lint --all",
-    "lerna:version" : "lerna version --yes",
-    "lerna:publish" : "lerna publish --yes"
+    "lerna:version" : "lerna version --yes --conventional-commits --create-release github"
   },
   "private": true,
   "devDependencies": {
