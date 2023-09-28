@@ -5,9 +5,10 @@
   "scripts": {
     "build": "nx run-many --target=build --all",
     "lint": "nx run-many --target=lint --all",
-    "lerna:version" : "lerna version --yes --conventional-commits --create-release github"
+    "lerna:version" : "lerna version --yes --conventional-commits --create-release github",
+    "lerna:publish": "lerna publish from-package --yes"
   },
-  "private": true,
+  "private": false,
   "devDependencies": {
     "@nx/eslint-plugin": "16.5.2",
     "@nx/js": "16.9.1",
