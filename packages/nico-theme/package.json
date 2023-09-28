@@ -1,12 +1,11 @@
 {
   "name": "@mm-components/nico-theme",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "dist/index.js",
-  "devDependencies": {},
   "scripts": {
     "build": "tsc index.ts --outDir dist",
     "lint": "eslint index.ts",
-    "prepare" : "npm run build"
+    "prepare": "npm run build"
   },
   "author": "",
   "license": "ISC",
