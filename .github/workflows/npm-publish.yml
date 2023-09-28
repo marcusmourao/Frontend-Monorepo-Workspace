@@ -27,6 +27,8 @@ jobs:
           node-version: 18
           registry-url: https://registry.npmjs.org/
       - run: npm ci
+      - run: git config --global user.email "<>"
+      - run: git config --global user.name "Github Action Bot"
       - run: npm run lerna:version
         env:
           NODE_AUTH_TOKEN: ${{secrets.fmw_npm_token}}
