@@ -27,6 +27,7 @@ jobs:
           node-version: 18
           registry-url: https://registry.npmjs.org/
       - run: npm ci
-      - run: npm publish
+      - run: npm run lerna:version
         env:
           NODE_AUTH_TOKEN: ${{secrets.fmw_npm_token}}
+          GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
