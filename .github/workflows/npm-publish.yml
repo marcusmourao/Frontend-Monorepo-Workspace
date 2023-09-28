@@ -29,7 +29,7 @@ jobs:
       - run: npm ci
       - run: git config --global user.email "<>"
       - run: git config --global user.name "Github Action Bot"
-      - run: npm run lerna:version
+      - run: npm run lerna:publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.fmw_npm_token}}
           GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
