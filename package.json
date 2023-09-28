@@ -6,7 +6,7 @@
     "build": "nx run-many --target=build --all",
     "lint": "nx run-many --target=lint --all",
     "version" : "lerna version --yes",
-    "publish" : "lerna publish"
+    "publish" : "lerna publish --yes"
   },
   "private": true,
   "devDependencies": {
