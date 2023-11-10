@@ -4,12 +4,17 @@
   "main": "dist/index.js",
   "private": false,
   "scripts": {
-    "build": "tsc index.ts --outDir dist",
+    "build:styles": "node $PWD/src/config.js",
+    "build:ts": "tsc $PWD/index.ts --outDir dist",
+    "build": "npm run build:styles && npm run build:ts",
     "lint": "eslint index.ts",
     "prepare": "npm run build"
   },
   "author": "",
   "license": "ISC",
   "description": "",
-  "gitHead": "40a87d444db05391f84a60bf762007b3aa0e8f33"
+  "gitHead": "40a87d444db05391f84a60bf762007b3aa0e8f33",
+  "devDependencies": {
+    "style-dictionary": "^3.9.0"
+  }
 }
