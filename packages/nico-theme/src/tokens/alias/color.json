@@ -1,0 +1,11 @@
+{
+  "alias": {
+    "color": {
+      "surface": {
+        "default": { "value": "{base.color.indigo-20.value}" },
+        "hovered": { "value": "{base.color.indigo-30.value}" },
+        "disabled": { "value": "{base.color.indigo-00.value}" }
+      }
+    }
+  }
+}

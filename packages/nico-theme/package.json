@@ -5,8 +5,7 @@
   "private": false,
   "scripts": {
     "build:styles": "node $PWD/src/config.js",
-    "build:ts": "tsc $PWD/index.ts --outDir dist",
-    "build": "npm run build:styles && npm run build:ts",
+    "build": "npm run build:styles",
     "lint": "eslint index.ts",
     "prepare": "npm run build"
   },
