@@ -1,5 +1,5 @@
-import { THEME } from "@mm-components/nico-theme";
+import * as Theme from "@mm-components/nico-theme";
 
 export const useTheme = () => {
-    return THEME;
+    return Theme;
 };
