@@ -1,14 +1,12 @@
 {
   "name": "@mm-components/nico-core",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "dist/index.js",
   "private": false,
   "scripts": {
     "build": "tsc index.ts --outDir dist",
     "lint": "eslint index.ts",
     "prepare": "npm run build"
-  },
-  "dependencies": {
   },
   "author": "",
   "license": "ISC",

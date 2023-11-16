@@ -1,6 +1,6 @@
 {
   "name": "@mm-components/nico-docs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/index.js",
   "private": false,
   "scripts": {
@@ -9,7 +9,7 @@
     "prepare": "npm run build"
   },
   "dependencies": {
-    "@mm-components/nico-core": "^0.2.0"
+    "@mm-components/nico-core": "^0.2.1"
   },
   "author": "",
   "license": "ISC",
