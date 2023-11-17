@@ -1,12 +1,39 @@
 {
   "name": "@mm-components/nico-core",
   "version": "0.2.4",
-  "main": "dist/index.js",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/nico-core.umd.js",
+  "module": "./dist/nico-core.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/nico-core.es.js",
+      "require": "./dist/nico-core.umd.js"
+    },
+    "./dist/nico-core.css": {
+      "import": "./dist/nico-core.css",
+      "require": "./dist/nico-core.css"
+    }
+  },
+  "types": "./dist/main.d.ts",
   "private": false,
   "scripts": {
-    "build": "tsc index.ts --outDir dist",
+    "dev": "vite",
+    "preview": "vite preview",
+    "build": "vue-tsc && vite build",
     "lint": "eslint index.ts",
     "prepare": "npm run build"
+  },
+  "dependencies": {
+    "vue": "^3.3.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0",
+    "vue-tsc": "^1.8.22"
   },
   "author": "",
   "license": "ISC",

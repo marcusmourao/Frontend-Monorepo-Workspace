@@ -1,6 +1,3 @@
 {
-  "recommendations": [
-    
-    "nrwl.angular-console"
-  ]
+  "recommendations": ["Vue.volar", "Vue.vscode-typescript-vue-plugin", "nrwl.angular-console"]
 }

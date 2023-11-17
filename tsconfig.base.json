@@ -1,6 +1,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "allowJs": true,
     "rootDir": ".",
     "sourceMap": true,
     "declaration": false,
@@ -26,5 +27,6 @@
       "@my-vue/icons": ["libs/icons/src/index.ts"]
     }
   },
-  "exclude": ["node_modules", "tmp"]
+  "exclude": ["node_modules", "tmp"],
+  "include": ["vite.config.ts"]
 }
