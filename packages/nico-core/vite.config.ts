@@ -42,10 +42,6 @@ export default defineConfig({
       },
       external: ['vue'],
       output: {
-        assetFileNames: (assetInfo) => {
-          if (assetInfo.name === 'main.css') return 'index.css';
-          return assetInfo.name;
-        },
         exports: 'named',
         globals: {
           vue: 'Vue',

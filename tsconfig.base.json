@@ -24,9 +24,7 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-      "@my-vue/icons": ["libs/icons/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"],
-  "include": ["vite.config.ts"]
 }
