@@ -2,6 +2,7 @@
   "name": "@mm-components/nico-theme",
   "version": "0.2.5",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "private": false,
   "scripts": {
     "build:styles": "node $PWD/src/config.js",
