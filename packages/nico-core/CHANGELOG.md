@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.3.0 (2023-11-22)
+
+### Features
+
+- init storybook ([6be03b0](https://github.com/marcusmourao/Frontend-Monorepo-Workspace/commit/6be03b095162d500344af2693aee35ee3fb9c7d3))
+
 ## 0.2.6 (2023-11-17)
 
 **Note:** Version bump only for package @mm-components/nico-core
