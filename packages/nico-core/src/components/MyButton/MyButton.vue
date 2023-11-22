@@ -14,6 +14,7 @@
 
 <template>
   <button class="btn" :class="{ primary }">
+    My Button
     <slot />
   </button>
 </template>
